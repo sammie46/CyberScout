@@ -1,5 +1,7 @@
 # CyberScout
 
+*Spot the spike. Scout the threat.*
+
 **Intelligent Network Traffic Monitoring and Anomaly Detection System**
 
 ## 1. Project Overview
@@ -62,7 +64,7 @@ CyberScout aims to address this problem through automated traffic analysis, Mach
 - Active alerts overview.
 - Traffic and anomaly visualizations.
 - Historical traffic analysis.
-- Activity Heatmap by day and hour.
+- Activity heatmap by day and hour.
 - Detailed incident investigation.
 - Incident lifecycle management.
 - AI-assisted investigation interface.
@@ -94,7 +96,7 @@ The PoC will focus on demonstrating the anomaly detection workflow. Automatic IP
 
 ## 6. Proposed Technology Stack
 
-| Component | Technology | Purpose |
+| **Component** | **Technology** | **Purpose** |
 |---|---|---|
 | Programming Language | Python | Backend and ML development |
 | Backend Framework | FastAPI | REST API and backend services |
@@ -108,8 +110,6 @@ The PoC will focus on demonstrating the anomaly detection workflow. Automatic IP
 | Notifications | Slack API / Microsoft Teams | External alert delivery |
 | Version Control | Git, GitHub | Source code and project management |
 | API Testing | Postman | API testing |
-
-*The technology stack is preliminary and will be finalized during technical architecture planning.*
 
 ## 7. System Approach
 
@@ -129,16 +129,29 @@ The AI Agent will access system information through controlled backend operation
 
 ## 8. Project Development Phases
 
-### Phase 1 – Minimum Viable Product (MVP)
+### Phase 1 – Proof of Concept (PoC)
 
+- CSV-based traffic data ingestion.
+- Data validation and preprocessing.
+- Time-window-based traffic aggregation.
+- Feature extraction and traffic metrics calculation.
+- Initial anomaly detection using Isolation Forest.
+- Basic anomaly scoring and visualization.
+- Demonstration using normal and simulated attack datasets.
+
+### Phase 2 – Minimum Viable Product (MVP)
+
+- Integrated backend and frontend application.
 - Machine Learning-based anomaly detection.
 - Dynamic baseline monitoring.
+- Dashboard and traffic visualizations.
+- Alert generation and management.
+- Incident lifecycle management.
 - AI-powered incident investigation.
-- Basic alerts and external notifications.
-- Dashboard and incident management.
+- At least one external notification integration (Slack or Microsoft Teams).
 - Data processing and storage.
 
-### Phase 2 – Future Development
+### Phase 3 – Future Development
 
 - Jira integration.
 - Internal notification center.
@@ -148,12 +161,15 @@ The AI Agent will access system information through controlled backend operation
 - Automated reports.
 - Multi-server monitoring.
 - User management and Role-Based Access Control (RBAC).
+- Live network traffic collection.
+- Advanced AI Agent capabilities.
 
 ## 9. Project Status
 
 **Current Stage:** Planning and Proof of Concept preparation.
 
 Current activities include:
+
 - Defining functional and non-functional requirements.
 - Preparing the GitHub project documentation.
 - Designing the technical architecture.
@@ -162,4 +178,4 @@ Current activities include:
 
 ---
 
-**CyberScout – Intelligent Network Monitoring and Anomaly Detection.**
+**CyberScout – Spot the spike. Scout the threat.**
